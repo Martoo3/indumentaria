@@ -64,21 +64,21 @@
     <div class="tienda">
 
       <div class="producto">
-        <img src="fauza1.jpg" />
+        <img src="ropa1.jpg" />
         <h3>Remera Oversize</h3>
         <p>$20 USD</p>
         <button onclick="comprar()">Comprar</button>
       </div>
 
       <div class="producto">
-        <img src="fauza2.jpg" />
+        <img src="ropa2.jpg" />
         <h3>Buzo Hoodie</h3>
         <p>$35 USD</p>
         <button onclick="comprar()">Comprar</button>
       </div>
 
       <div class="producto">
-        <img src="fauza3.jpg" />
+        <img src="ropa3.jpg" />
         <h3>Pantalón Cargo</h3>
         <p>$40 USD</p>
         <button onclick="comprar()">Comprar</button>
