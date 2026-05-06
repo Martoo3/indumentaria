@@ -57,28 +57,28 @@
   </head>
 
   <body>
-    <h1>🛍️ Tienda de Ropa</h1>
+    <h1>🛍️ Tienda FAUZA</h1>
 
     <p>Comprá directo por WhatsApp 😎</p>
 
     <div class="tienda">
 
       <div class="producto">
-        <img src="ropa1.jpg" />
+        <img src="fauza1.jpg" />
         <h3>Remera Oversize</h3>
         <p>$20 USD</p>
         <button onclick="comprar()">Comprar</button>
       </div>
 
       <div class="producto">
-        <img src="ropa2.jpg" />
+        <img src="fauza2.jpg" />
         <h3>Buzo Hoodie</h3>
         <p>$35 USD</p>
         <button onclick="comprar()">Comprar</button>
       </div>
 
       <div class="producto">
-        <img src="ropa3.jpg" />
+        <img src="fauza3.jpg" />
         <h3>Pantalón Cargo</h3>
         <p>$40 USD</p>
         <button onclick="comprar()">Comprar</button>
