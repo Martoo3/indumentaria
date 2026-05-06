@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Tienda de Ropa</title>
+
+    <style>
+      body {
+        background-color: #0f172a;
+        color: white;
+        font-family: Arial;
+        text-align: center;
+      }
+
+      h1 {
+        color: cyan;
+      }
+
+      .tienda {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        padding: 20px;
+      }
+
+      .producto {
+        border: 2px solid cyan;
+        border-radius: 10px;
+        padding: 10px;
+        transition: 0.3s;
+      }
+
+      .producto:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 10px cyan;
+      }
+
+      .producto img {
+        width: 100%;
+        border-radius: 10px;
+      }
+
+      button {
+        background: transparent;
+        color: cyan;
+        border: 2px solid cyan;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background: cyan;
+        color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>🛍️ Tienda de Ropa</h1>
+
+    <p>Comprá directo por WhatsApp 😎</p>
+
+    <div class="tienda">
+
+      <div class="producto">
+        <img src="ropa1.jpg" />
+        <h3>Remera Oversize</h3>
+        <p>$20 USD</p>
+        <button onclick="comprar()">Comprar</button>
+      </div>
+
+      <div class="producto">
+        <img src="ropa2.jpg" />
+        <h3>Buzo Hoodie</h3>
+        <p>$35 USD</p>
+        <button onclick="comprar()">Comprar</button>
+      </div>
+
+      <div class="producto">
+        <img src="ropa3.jpg" />
+        <h3>Pantalón Cargo</h3>
+        <p>$40 USD</p>
+        <button onclick="comprar()">Comprar</button>
+      </div>
+
+    </div>
+
+    <script>
+      function comprar() {
+        window.open("https://wa.me/123456789", "_blank");
+      }
+    </script>
+  </body>
+</html>
