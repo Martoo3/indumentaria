@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>Tienda de Ropa</title>
+    <title>FAUZA</title>
 
     <style>
       body {
@@ -88,7 +88,7 @@
 
     <script>
       function comprar() {
-        window.open("https://wa.me/123456789", "_blank");
+        window.open("https://wa.me/1125012219", "_blank");
       }
     </script>
   </body>
