@@ -1,7 +1,13 @@
 <!doctype html>
-<html>
+<html lang="es">
   <head>
-    <title>Tienda de Ropa</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>FAUSZA | Tienda de Ropa</title>
+
+    <!-- FOTO DE LA PESTAÑA (FAVICON) -->
+    <link rel="icon" type="image/png" href="favicon.png">
 
     <style>
       body {
@@ -9,10 +15,28 @@
         color: white;
         font-family: Arial;
         text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* HEADER */
+      header {
+        padding: 30px 20px 10px;
+      }
+
+      .logo {
+        width: 280px;
+        max-width: 90%;
+        margin-bottom: 10px;
       }
 
       h1 {
         color: cyan;
+        margin-top: 10px;
+      }
+
+      p {
+        color: #cbd5e1;
       }
 
       .tienda {
@@ -27,6 +51,7 @@
         border-radius: 10px;
         padding: 10px;
         transition: 0.3s;
+        background-color: #111827;
       }
 
       .producto:hover {
@@ -47,6 +72,7 @@
         margin-top: 10px;
         border-radius: 10px;
         cursor: pointer;
+        font-weight: bold;
       }
 
       button:hover {
@@ -57,10 +83,17 @@
   </head>
 
   <body>
-    <h1>🛍️ Tienda de Ropa</h1>
 
-    <p>Comprá directo por WhatsApp 😎</p>
+    <!-- LOGO -->
+    <header>
+      <img src="fausza-logo.png" alt="FAUSZA Logo" class="logo">
 
+      <h1>🛍️ Tienda de Ropa</h1>
+
+      <p>Comprá directo por WhatsApp 😎</p>
+    </header>
+
+    <!-- PRODUCTOS -->
     <div class="tienda">
 
       <div class="producto">
@@ -72,7 +105,7 @@
 
       <div class="producto">
         <img src="ropa2.jpg" />
-        <h3>Remera De racing </h3>
+        <h3>Remera De Racing</h3>
         <p>$35 USD</p>
         <button onclick="comprar()">Comprar</button>
       </div>
@@ -83,6 +116,7 @@
         <p>$40 USD</p>
         <button onclick="comprar()">Comprar</button>
       </div>
+
       <div class="producto">
         <img src="ropa4.jpg" />
         <h3>Remera De Boca</h3>
@@ -92,7 +126,7 @@
 
       <div class="producto">
         <img src="ropa5.jpg" />
-        <h3>Remera De racing </h3>
+        <h3>Remera De Racing</h3>
         <p>$35 USD</p>
         <button onclick="comprar()">Comprar</button>
       </div>
@@ -111,5 +145,6 @@
         window.open("https://wa.me/123456789", "_blank");
       }
     </script>
+
   </body>
 </html>
